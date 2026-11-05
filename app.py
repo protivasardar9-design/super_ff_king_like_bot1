@@ -390,7 +390,7 @@ def oauth_guest():
         "platform": decoded.get("external_type"),
         "is_emulator": decoded.get("is_emulator", False),
         "emulator_score": decoded.get("emulator_score", 0),
-        important: token,
+        "important": token,
         "open_id": open_id,
         "access_token": access_token,
         "server_url": server_url,
